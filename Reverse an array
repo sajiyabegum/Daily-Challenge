@@ -1,4 +1,4 @@
-mport java.util.*;//print reverse
+import java.util.*;//print reverse
 public class MyClass {
     public static void main(String args[]) {
         Scanner sc=new Scanner(System.in);
@@ -8,7 +8,6 @@ public class MyClass {
          arr[i]=sc.nextInt();
      }
      for(int i=n-1;i>=0;i--){
-         //if(arr[i]!=arr[n-2])
          System.out.println(arr[i]);
      }
     }
